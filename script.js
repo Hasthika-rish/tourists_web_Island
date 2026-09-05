@@ -101,32 +101,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 5.1 Vehicle Data and Dynamic Preview in Booking Form
     const vehicleData = {
-        'Comfort Air-Conditioned Sedan (Bezza / Prime)': {
-            title: 'Comfort Air-Conditioned Sedan',
-            category: 'Sedan (Bezza / Prime)',
-            desc: 'Modern, clean & fuel-efficient private sedan with plush seating and smooth suspension.',
+        'Perodua Bezza Sedan (1 - 3 Guests)': {
+            title: 'Perodua Bezza Sedan',
+            category: 'Comfort Air-Conditioned Sedan',
+            desc: 'Modern, clean & fuel-efficient private sedan with plush seating, crisp A/C, and smooth suspension — ideal for relaxed island touring.',
             capacity: '1 - 3 Seats',
             baggage: '2 Large Bags',
-            ac: 'Dual A/C & Chauffeur',
+            ac: 'Dual A/C & Chauffeur Guide',
             image: 'images/vehicle-sedan.jpg'
         },
-        'Luxury Tourist Mini Van (KDH / HiAce Commuter)': {
-            title: 'Luxury Tourist Mini Van',
-            category: 'Van (KDH / HiAce Commuter)',
-            desc: 'Spacious high-roof tourist van with reclining captain seats and panoramic windows.',
-            capacity: '4 - 9 Seats',
-            baggage: '6 - 8 Large Bags',
-            ac: 'Dual Multi A/C & Wi-Fi',
-            image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=800&q=80'
+        'Comfort Air-Conditioned Sedan (Bezza / Prime)': {
+            title: 'Perodua Bezza Sedan',
+            category: 'Comfort Air-Conditioned Sedan',
+            desc: 'Modern, clean & fuel-efficient private sedan with plush seating, crisp A/C, and smooth suspension — ideal for relaxed island touring.',
+            capacity: '1 - 3 Seats',
+            baggage: '2 Large Bags',
+            ac: 'Dual A/C & Chauffeur Guide',
+            image: 'images/vehicle-sedan.jpg'
         },
-        'Premium Touring SUV / Crossover (Vezel / Prado)': {
-            title: 'Premium Touring SUV / Crossover',
-            category: 'SUV (Vezel / Forester / Prado)',
-            desc: 'High road clearance and luxury suspension tailored for hill country and sightseeing.',
-            capacity: '1 - 4 Seats',
+        'Toyota Axio Fielder (1 - 4 Guests)': {
+            title: 'Toyota Axio Fielder',
+            category: 'Hybrid Touring Wagon / Sedan',
+            desc: 'Spacious, smooth, and fuel-efficient Toyota Axio Fielder hybrid with plush seating, crisp A/C, and generous luggage capacity.',
+            capacity: '4 Passengers (1 - 4)',
             baggage: '3 - 4 Large Bags',
-            ac: 'Climate Control & High View',
-            image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80'
+            ac: 'Dual Climate A/C & Chauffeur Guide',
+            image: 'images/toyota-axio-fielder.jpg'
+        },
+        'Luxury Toyota KDH Van (4 - 7 Guests)': {
+            title: 'Luxury Toyota KDH Van',
+            category: '7-Seater Tourist Van (KDH / HiAce)',
+            desc: 'Spacious high-roof Toyota KDH tourist van featuring 7 passenger seats, reclining captain chairs, dual multi-zone air conditioning, and panoramic tinted windows.',
+            capacity: '7 Passengers (4 - 7)',
+            baggage: '6 - 7 Large Bags',
+            ac: 'Dual Multi A/C & Wi-Fi',
+            image: 'images/toyota-kdh-van.jpg'
+        },
+        'Luxury Tourist Mini Van (KDH / HiAce Commuter)': {
+            title: 'Luxury Toyota KDH Van',
+            category: '7-Seater Tourist Van (KDH / HiAce)',
+            desc: 'Spacious high-roof Toyota KDH tourist van featuring 7 passenger seats, reclining captain chairs, dual multi-zone air conditioning, and panoramic tinted windows.',
+            capacity: '7 Passengers (4 - 7)',
+            baggage: '6 - 7 Large Bags',
+            ac: 'Dual Multi A/C & Wi-Fi',
+            image: 'images/toyota-kdh-van.jpg'
         }
     };
 
