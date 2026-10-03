@@ -81,11 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Construct formatted WhatsApp message
             const whatsappNumber = '94710747041'; // International format without +
-<<<<<<< HEAD
             const text = `Hello Nalaka,%0A%0A*Tour Booking & Enquiry - Thambapanni Rides*%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APreferred Vehicle: ${encodeURIComponent(vehicle)}%0ATravelers: ${encodeURIComponent(travelers)}%0AArrival Date: ${encodeURIComponent(date)}%0AMessage: ${encodeURIComponent(message)}`;
-=======
-            const text = `Hello Nalaka,%0A%0A*Tour Booking & Enquiry*%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APreferred Vehicle: ${encodeURIComponent(vehicle)}%0ATravelers: ${encodeURIComponent(travelers)}%0AArrival Date: ${encodeURIComponent(date)}%0AMessage: ${encodeURIComponent(message)}`;
->>>>>>> c403aa506320b97f3ca5d0563db09e7b42648a78
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${text}`;
 
             // Open WhatsApp chat in a new tab

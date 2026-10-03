@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 # Thambapanni Rides - Sri Lanka Tourism
 
 A premium, modern static website for Thambapanni Rides, showcasing custom curated tours and private vehicle transport in Sri Lanka by local guide Nalaka. All tour package and ride prices are flexible and can be adjusted upon contact.
-=======
-# Island Explorer - Sri Lanka Tourism
-
-A premium, modern static website for Island Explorer, showcasing custom curated tours in Sri Lanka by local guide Nalaka.
->>>>>>> c403aa506320b97f3ca5d0563db09e7b42648a78
 
 ## Structure
 - `index.html`: The main single-page layout.
@@ -16,7 +10,7 @@ A premium, modern static website for Island Explorer, showcasing custom curated 
 
 ## Features
 - **Dynamic Hero Slideshow**: Fading background slider with high-quality imagery.
-- **Responsive Navigation**: Sticky header with smooth scrolling and a mobile hamburger menu.
+- **Responsive Navigation**: Sticky header with smooth scrolling, aligned logo, and a mobile hamburger menu.
 - **Destination Cards**: Handpicked tourist spots with local images.
 - **Interactive Filtering**: Filter curated experiences by categories (Adventure, Culture, Relaxation).
 - **Direct WhatsApp Booking**: A contact form that formats the inquiry directly into a WhatsApp message.
