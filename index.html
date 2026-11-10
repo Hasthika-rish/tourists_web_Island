@@ -992,7 +992,8 @@
             <div class="section-title">
                 <span class="sub-heading">Guest Experiences</span>
                 <h2>Loved by Travellers Worldwide</h2>
-                <p>Read genuine reviews from guests who explored Sri Lanka with Nalaka and Thambapanni Rides, or share your own journey for other travellers to see.</p>
+                <p>Read genuine reviews from guests who explored Sri Lanka with Nalaka and Thambapanni Rides, or share
+                    your own journey for other travellers to see.</p>
             </div>
 
             <!-- Reviews Overview & Rating Summary Card -->
@@ -1073,24 +1074,29 @@
                     <button type="button" class="btn btn-primary btn-write-review" id="openReviewModalBtn">
                         <i class="fa-solid fa-pen-to-square"></i> Share Your Review
                     </button>
-                    <span class="sync-status" id="cloudSyncStatus"><i class="fa-solid fa-cloud"></i> Synced live for all visitors</span>
+                    <span class="sync-status" id="cloudSyncStatus"><i class="fa-solid fa-cloud"></i> Synced live for all
+                        visitors</span>
                 </div>
             </div>
 
             <!-- Reviews Filter & Search Toolbar -->
             <div class="reviews-toolbar">
                 <div class="reviews-filter-pills" id="reviewFilterPills">
-                    <button type="button" class="review-filter-btn active" data-filter="all">All Reviews (<span id="allReviewsCount">0</span>)</button>
+                    <button type="button" class="review-filter-btn active" data-filter="all">All Reviews (<span
+                            id="allReviewsCount">0</span>)</button>
                     <button type="button" class="review-filter-btn" data-filter="5">5 Stars ★★★★★</button>
-                    <button type="button" class="review-filter-btn" data-filter="with-reply">With Nalaka's Reply</button>
+                    <button type="button" class="review-filter-btn" data-filter="with-reply">With Nalaka's
+                        Reply</button>
                     <button type="button" class="review-filter-btn" data-filter="recent">Recent</button>
                 </div>
 
                 <div class="reviews-search-sort">
                     <div class="review-search-box">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" id="reviewSearchInput" placeholder="Search reviews by keyword, country, or tour...">
-                        <button type="button" id="clearSearchBtn" class="clear-search-btn" style="display: none;" aria-label="Clear search">&times;</button>
+                        <input type="text" id="reviewSearchInput"
+                            placeholder="Search reviews by keyword, country, or tour...">
+                        <button type="button" id="clearSearchBtn" class="clear-search-btn" style="display: none;"
+                            aria-label="Clear search">&times;</button>
                     </div>
                     <div class="review-sort-select-wrap">
                         <select id="reviewSortSelect" aria-label="Sort Reviews">
@@ -1120,11 +1126,14 @@
                 <div class="cta-banner-content">
                     <i class="fa-solid fa-quote-left quote-watermark"></i>
                     <h3>Ready to experience Sri Lanka for yourself?</h3>
-                    <p>Contact Nalaka directly on WhatsApp to design your custom itinerary with flexible rates tailored to your dates and budget.</p>
+                    <p>Contact Nalaka directly on WhatsApp to design your custom itinerary with flexible rates tailored
+                        to your dates and budget.</p>
                 </div>
                 <div class="cta-banner-actions">
-                    <a href="#contact" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Plan Your Journey</a>
-                    <button type="button" class="btn btn-outline" id="openReviewModalBtn2"><i class="fa-solid fa-feather-pointed"></i> Leave a Review</button>
+                    <a href="#contact" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Plan Your
+                        Journey</a>
+                    <button type="button" class="btn btn-outline" id="openReviewModalBtn2"><i
+                            class="fa-solid fa-feather-pointed"></i> Leave a Review</button>
                 </div>
             </div>
         </div>
@@ -1352,46 +1361,59 @@
     <div id="reviewModal" class="review-modal" aria-hidden="true" role="dialog" aria-labelledby="reviewModalTitle">
         <div class="review-modal-overlay" id="reviewModalOverlay"></div>
         <div class="review-modal-dialog">
-            <button class="review-modal-close" id="closeReviewModalBtn" aria-label="Close review dialog">&times;</button>
+            <button class="review-modal-close" id="closeReviewModalBtn"
+                aria-label="Close review dialog">&times;</button>
 
             <!-- Form Screen -->
             <div id="reviewFormScreen">
                 <div class="review-modal-header">
                     <span class="sub-heading">Thambapanni Rides</span>
                     <h3 id="reviewModalTitle">Share Your Experience with Nalaka</h3>
-                    <p>Your honest review helps future travellers discover the wonders of Sri Lanka with peace of mind. It will be published live for everyone to see.</p>
+                    <p>Your honest review helps future travellers discover the wonders of Sri Lanka with peace of mind.
+                        It will be published live for everyone to see.</p>
                 </div>
 
                 <form id="submitReviewForm" class="review-modal-form">
                     <!-- Rating Selector -->
                     <div class="form-group rating-select-group">
-                        <label class="rating-label">How would you rate your trip? <span class="required">*</span></label>
+                        <label class="rating-label">How would you rate your trip? <span
+                                class="required">*</span></label>
                         <div class="star-rating-picker" id="starRatingPicker">
-                            <button type="button" class="star-picker-btn active" data-rating="1" aria-label="1 star"><i class="fa-solid fa-star"></i></button>
-                            <button type="button" class="star-picker-btn active" data-rating="2" aria-label="2 stars"><i class="fa-solid fa-star"></i></button>
-                            <button type="button" class="star-picker-btn active" data-rating="3" aria-label="3 stars"><i class="fa-solid fa-star"></i></button>
-                            <button type="button" class="star-picker-btn active" data-rating="4" aria-label="4 stars"><i class="fa-solid fa-star"></i></button>
-                            <button type="button" class="star-picker-btn active" data-rating="5" aria-label="5 stars"><i class="fa-solid fa-star"></i></button>
+                            <button type="button" class="star-picker-btn active" data-rating="1" aria-label="1 star"><i
+                                    class="fa-solid fa-star"></i></button>
+                            <button type="button" class="star-picker-btn active" data-rating="2" aria-label="2 stars"><i
+                                    class="fa-solid fa-star"></i></button>
+                            <button type="button" class="star-picker-btn active" data-rating="3" aria-label="3 stars"><i
+                                    class="fa-solid fa-star"></i></button>
+                            <button type="button" class="star-picker-btn active" data-rating="4" aria-label="4 stars"><i
+                                    class="fa-solid fa-star"></i></button>
+                            <button type="button" class="star-picker-btn active" data-rating="5" aria-label="5 stars"><i
+                                    class="fa-solid fa-star"></i></button>
                         </div>
-                        <span class="rating-feedback-text" id="ratingFeedbackText">5 Stars - Outstanding / Unforgettable!</span>
+                        <span class="rating-feedback-text" id="ratingFeedbackText">5 Stars - Outstanding /
+                            Unforgettable!</span>
                         <input type="hidden" id="selectedRatingValue" value="5">
                     </div>
 
                     <div class="form-group">
                         <label for="reviewAuthorName">Your Name <span class="required">*</span></label>
-                        <input type="text" id="reviewAuthorName" placeholder="Enter your name (e.g. Sarah or Mark)" required>
+                        <input type="text" id="reviewAuthorName" placeholder="Enter your name (e.g. Sarah or Mark)"
+                            required>
                     </div>
 
                     <div class="form-group">
                         <label for="reviewComment">Your Detailed Review <span class="required">*</span></label>
-                        <textarea id="reviewComment" rows="5" placeholder="Share your experience travelling with Nalaka &amp; Thambapanni Rides..." required></textarea>
+                        <textarea id="reviewComment" rows="5"
+                            placeholder="Share your experience travelling with Nalaka &amp; Thambapanni Rides..."
+                            required></textarea>
                     </div>
 
                     <div class="modal-form-actions">
                         <button type="button" class="btn btn-outline-dark" id="cancelReviewBtn">Cancel</button>
                         <button type="submit" class="btn btn-primary btn-submit-review" id="submitReviewBtn">
                             <span class="btn-text"><i class="fa-solid fa-paper-plane"></i> Publish Review</span>
-                            <span class="btn-spinner" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i> Publishing...</span>
+                            <span class="btn-spinner" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i>
+                                Publishing...</span>
                         </button>
                     </div>
                     <div id="reviewFormStatus" class="form-status"></div>
@@ -1404,12 +1426,15 @@
                     <i class="fa-solid fa-circle-check"></i>
                 </div>
                 <h3>Thank You for Your Wonderful Review!</h3>
-                <p>Your review has been successfully published live and is now visible to other travellers worldwide visiting Thambapanni Rides.</p>
+                <p>Your review has been successfully published live and is now visible to other travellers worldwide
+                    visiting Thambapanni Rides.</p>
                 <div class="success-actions">
-                    <a id="shareReviewWhatsAppBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                    <a id="shareReviewWhatsAppBtn" href="#" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-whatsapp">
                         <i class="fa-brands fa-whatsapp"></i> Send Copy to Nalaka on WhatsApp
                     </a>
-                    <button type="button" class="btn btn-outline-dark" id="closeSuccessModalBtn">Back to Website</button>
+                    <button type="button" class="btn btn-outline-dark" id="closeSuccessModalBtn">Back to
+                        Website</button>
                 </div>
             </div>
         </div>
